@@ -1,0 +1,32 @@
+html,body{
+    margin:0;
+    padding:0;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    background: #193549;
+}
+:root{
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+img{
+    padding:var(--spacing);
+    background:var(--base);
+}
+.h1{
+    color: var(--base);
+}
+.controls{
+    margin-bottom: 50px;
+}
+a{
+    color: var(--base);
+    text-decoration: none;
+}
+input{
+    width: 100px;
+}
